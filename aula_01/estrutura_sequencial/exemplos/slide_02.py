@@ -22,35 +22,67 @@
 # print(f"{qtd_latas:0.2f} latas de tinta.")
 # print(f"A um custo de R$ {custo_total:0.2f}")
 
-print("---- Sitação Problema 3 -----")
+# print("---- Sitação Problema 3 -----")
+#
+# idade = int(input("Digite a sua idade: "))
+#
+# if idade >= 18:
+#     print("Pode entrar na festa!")
+#
+#
+# print("---- Sitação Problema 4 -----")
+#
+# idade = int(input("Digite a sua idade: "))
+#
+# if idade >= 18:
+#     print("Pode entrar na festa!")
+# else:
+#     print("Você não pode entrar, é muito novo!")
+#
+# print("---- Sitação Problema 4 (ajustada) -----")
+#
+# idade = int(input("Digite a sua idade: "))
+#
+# if idade >= 18:
+#     ingresso = input("Ingresso VIP ou PISTA?")
+#     if ingresso.upper().strip() == "VIP":
+#         print("Siga para o primeiro andar")
+#     elif ingresso.upper().strip() == "PISTA":
+#         print("Siga pelo corredor!")
+#     else:
+#         print("Volte para a fila e compre um ingresso!")
+# else:
+#     print("É melhor voltar pra casa!")
+#     print("Vou chamar o conselho tutelar!!! :(")
 
-idade = int(input("Digite a sua idade: "))
+# print("---- Sitação Problema 5 -----")
+#
+# sexo = input("Digite M ou H: ")
+# altura = float(input("Digite sua altura: "))
+#
+# if sexo.upper().strip() == "M":
+#     print((62.1 * altura) - 44.7)
+# else:
+#     print((72.7 * altura) - 58)
+
+print("---- Sitação Problema 6 -----")
+# from datetime import datetime
+# print(datetime.now().strftime("%Y"))
+
+ano_nascimento = int(input("Digite o ano de nascimento: "))
+idade = 2022 - ano_nascimento
+
+if idade >= 16:
+    print("Parabéns, você é um eleitor!")
 
 if idade >= 18:
-    print("Pode entrar na festa!")
+    print("Você pode tentar uma auto escola!")
 
-
-print("---- Sitação Problema 4 -----")
-
-idade = int(input("Digite a sua idade: "))
-
-if idade >= 18:
-    print("Pode entrar na festa!")
+print("Segunda forma ---")
+if idade >= 16:
+    print("Parabéns, você é um eleitor!")
+    if idade >= 18:
+        print("Você pode tentar uma auto escola!")
 else:
-    print("Você não pode entrar, é muito novo!")
-
-print("---- Sitação Problema 4 (ajustada) -----")
-
-idade = int(input("Digite a sua idade: "))
-
-if idade >= 18:
-    ingresso = input("Ingresso VIP ou PISTA?")
-    if ingresso.upper().strip() == "VIP":
-        print("Siga para o primeiro andar")
-    elif ingresso.upper().strip() == "PISTA":
-        print("Siga pelo corredor!")
-    else:
-        print("Volte para a fila e compre um ingresso!")
-else:
-    print("É melhor voltar pra casa!")
-    print("Vou chamar o conselho tutelar!!! :(")
+    print("Você precisa crescer um pouquinho mais!")
+    print(f"Você tem apenas {idade} anos de vida!")

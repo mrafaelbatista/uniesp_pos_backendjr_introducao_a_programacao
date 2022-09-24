@@ -25,9 +25,26 @@
 print("---- Sitação Problema 3 -----")
 
 idade = int(input("Digite a sua idade: "))
-ingresso = input("Ingresso VIP ou PISTA?")
 
 if idade >= 18:
+    print("Pode entrar na festa!")
+
+
+print("---- Sitação Problema 4 -----")
+
+idade = int(input("Digite a sua idade: "))
+
+if idade >= 18:
+    print("Pode entrar na festa!")
+else:
+    print("Você não pode entrar, é muito novo!")
+
+print("---- Sitação Problema 4 (ajustada) -----")
+
+idade = int(input("Digite a sua idade: "))
+
+if idade >= 18:
+    ingresso = input("Ingresso VIP ou PISTA?")
     if ingresso.upper().strip() == "VIP":
         print("Siga para o primeiro andar")
     elif ingresso.upper().strip() == "PISTA":

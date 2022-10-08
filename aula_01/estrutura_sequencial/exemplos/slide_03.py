@@ -37,3 +37,45 @@ print(frutas)
 # a função index dentro do del
 del frutas[frutas.index("abacate")]
 print(frutas)
+
+# Método remove
+frutas.remove("morango")
+print(frutas)
+
+frutas = ["pêra", "uva", "maçã", "kiwi"]
+print(frutas)
+indice = frutas.index('uva')
+pop_fruta = frutas.pop(indice)
+print(frutas)
+print(f"Você tirou {pop_fruta} da sua sacola de frutas!")
+
+# Minha primeira tupla :)
+t_numbers = (10, 20, 30)
+print(t_numbers[0])
+print(t_numbers)
+
+# Tentando alterando o valor de um objeto da tupla
+# E isso deu erro :/
+# t_numbers[0] = 1000
+# print(t_numbers[0])
+
+# Alterando (sobrescrevendo) uma tupla
+t_numbers = (100, 200)
+print(t_numbers)
+
+print("\n---- Dicionários -----\n")
+professor = {'nome':'Messias', 'idade': 36,
+             'email': 'mrafaelbatista@gmail.com'}
+print(professor['nome'])
+print(f"Meu nome é {professor['nome']}")
+
+# Adicionar uma nova chave-valor
+professor['salario'] = 30.00
+print(professor)
+# Adicionamos um novo valor a mesma chave
+professor['salario'] = professor['salario'] * 1.1
+print(professor)
+
+# Removendo pares chave-valor
+del professor['salario']
+print(professor)

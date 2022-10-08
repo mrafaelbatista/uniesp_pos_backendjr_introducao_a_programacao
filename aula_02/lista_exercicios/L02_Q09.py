@@ -20,6 +20,5 @@ for linha in matriz:
             maior['mv'] = coluna
             maior['linha'] = matriz.index(linha)
             maior['coluna'] = linha.index(coluna)
-
 print(maior)
 

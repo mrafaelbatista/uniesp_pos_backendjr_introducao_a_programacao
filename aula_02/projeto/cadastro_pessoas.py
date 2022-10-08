@@ -1,3 +1,12 @@
+def lista_cadastros(database):
+    if len(database) == 0:
+        print("Não existem cadastros")
+    else:
+        for i in database.keys():
+            s = f"Nome: {database[i]['nome']} | " \
+                f"Email: {database[i]['email']} | " \
+                f"Data: {database[i]['data']}"
+            print(s)
 
 database = {}
 # While interativo
@@ -22,12 +31,31 @@ while True:
                             "data": data}
     elif opcao == 2:
         print(" --- LISTAGEM DE CADASTROS --- ")
+        lista_cadastros(database)
 
-        if len(database) == 0:
-            print("Não existem cadastros")
-        else:
-            for i in database.keys():
-                s = f"Nome: {database[i]['nome']} | " \
-                    f"Email: {database[i]['email']} | " \
-                    f"Data: {database[i]['data']}"
-                print(s)
+    elif opcao == 3:
+        print("---- Selecione o item a ser deletado --- ")
+        lista_cadastros(database)
+        codigo = int(input("Digite o código a ser deletado: "))
+        del database[codigo]
+
+    elif opcao == 4:
+        print("---- Selecione o item a ser alterado --- ")
+        lista_cadastros(database)
+        codigo = int(input("Digite o código a ser alterado: "))
+        op = int(input("1 - Nome\n"
+                       "2 - Email\n"
+                       "3 - Data\n"
+                       "O que você deseja alterar: "))
+        if op == 1:
+            nome = input("Digite o novo nome:")
+            database[codigo]['nome'] = nome
+        if op == 2:
+            email = input("Digite o novo email:")
+            database[codigo]['email'] = email
+        if op == 3:
+            data = input("Digite o novo data:")
+            database[codigo]['data'] = data
+
+    elif opcao == 0:
+        break

@@ -3,9 +3,11 @@ def lista_cadastros(database):
         print("Não existem cadastros")
     else:
         for i in database.keys():
-            s = f"Nome: {database[i]['nome']} | " \
+            s = f"Código: {i} |" \
+                f"Nome: {database[i]['nome']} | " \
                 f"Email: {database[i]['email']} | " \
                 f"Data: {database[i]['data']}"
+
             print(s)
 
 database = {}

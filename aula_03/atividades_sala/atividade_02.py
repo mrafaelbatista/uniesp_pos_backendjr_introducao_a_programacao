@@ -18,7 +18,7 @@ while True:
     ))
 
     if opcao == 1:
-        print(f"O livro tem:\n{contador_palavras('the_prince.txt')}")
+        print(f"O livro tem:\n{contador_palavras('the_prince_.txt')}")
 
     elif opcao == 2:
         print(contador_palavras("a_book_of_german_lyric.txt"))

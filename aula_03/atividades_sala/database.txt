@@ -1,7 +1,0 @@
-Titulo: The Prince;Qtd Palavras: 52982;Qtd Bytes: 307808
-Titulo: The Ebook is 40;Qtd Palavras: 39165;Qtd Bytes: 247729
-Titulo: The Prince;Qtd Palavras: 52982;Qtd Bytes: 307808
-Titulo: A book of German Lyric;Qtd Palavras: 41524;Qtd Bytes: 287149
-Titulo: The Prince; Qtd Palavras: 52982; Qtd MB: 0.307808
-Titulo: A book of German Lyric; Qtd Palavras: 41524; Qtd MB: 0.287149
-Titulo: The Ebook is 40; Qtd Palavras: 39165; Qtd MB: 0.247729

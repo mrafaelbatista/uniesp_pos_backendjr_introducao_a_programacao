@@ -10,9 +10,9 @@ def contador_palavras(filename):
 def guardar_info(titulo, quant_palavras, quant_bytes):
 
     info = f"" \
-           f"Titulo: {titulo};" \
-           f"Qtd Palavras: {quant_palavras};" \
-           f"Qtd Bytes: {quant_bytes}\n"
+           f"Titulo: {titulo}; " \
+           f"Qtd Palavras: {quant_palavras}; " \
+           f"Qtd MB: {quant_bytes}\n"
 
     with open("database.txt", "a", encoding="utf-8") as file_object:
         file_object.write(info)
@@ -36,27 +36,30 @@ while True:
     ))
 
     if opcao == 1:
-        print(f"O livro tem:\n{contador_palavras('the_prince.txt')}")
+        filename = 'the_prince.txt'
+        print(f"O livro tem:\n{contador_palavras(filename)}")
         guardar_info(
             "The Prince",
-            contador_palavras('the_prince.txt'),
-            os.path.getsize('the_prince.txt')
+            contador_palavras(filename),
+            (os.path.getsize(filename)/1000000)
         )
 
     elif opcao == 2:
+        filename = "a_book_of_german_lyric.txt"
         print(contador_palavras("a_book_of_german_lyric.txt"))
         guardar_info(
             "A book of German Lyric",
-            contador_palavras('a_book_of_german_lyric.txt'),
-            os.path.getsize('a_book_of_german_lyric.txt')
+            contador_palavras("a_book_of_german_lyric.txt"),
+            (os.path.getsize("a_book_of_german_lyric.txt")/1000000)
         )
 
     elif opcao == 3:
+        filename = "the_ebook_is_40.txt"
         print(contador_palavras("the_ebook_is_40.txt"))
         guardar_info(
             "The Ebook is 40",
-            contador_palavras('the_ebook_is_40.txt'),
-            os.path.getsize('the_ebook_is_40.txt')
+            contador_palavras("the_ebook_is_40.txt"),
+            (os.path.getsize("the_ebook_is_40.txt")/1000000)
         )
 
     elif opcao == 9:

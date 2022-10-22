@@ -1,10 +1,14 @@
 import os
+from loguru import logger
 
 def contador_palavras(filename):
-    with open(filename, 'r', encoding="utf-8") as file_object:
-        conteudo = file_object.read()
-    palavras = conteudo.split()
-    return len(palavras)
+    try:
+        with open(filename, 'r', encoding="utf-8") as file_object:
+            conteudo = file_object.read()
+        palavras = conteudo.split()
+        return len(palavras)
+    except Exception as error:
+        logger.error(error)
 
 
 def guardar_info(titulo, quant_palavras, quant_bytes):

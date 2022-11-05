@@ -1,18 +1,32 @@
 import requests
 import json
 
-Tokyo = Latitude: 35.6894, Longitude: 139.692
-Ny = Latitude: 40.6643, Longitude: -73.9385
-Madagascar =  Latitude: -18.9141, Longitude: 47.5306
 
-API_KEY = ''
-LAT = -5.79448
-LOG = -35.211
-url = (f"https://api.openweathermap.org/data/2.5/weather?lat={LAT}&lon={LOG}&appid={API_KEY}")
+def chamar_api(lat, log, nome_arquivo):
+    API_KEY = '2f2f555888d23e5a36c5aad583ebfae9'
+    url = (f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={log}&appid={API_KEY}")
 
-resposta = requests.request("GET", url)
-objetos = json.loads(resposta.text)
-# dados = objetos['dados']
+    resposta = requests.request("GET", url)
+    objetos = json.loads(resposta.text)
 
-for i in objetos:
-    print(f"{i} :: {objetos[i]}")
+    arquivo = nome_arquivo + ".json"
+
+    with open(arquivo, 'w', encoding='utf-8') as f:
+        json.dump(objetos, f)
+
+
+dl = {
+    'Tokyo': {'lat': 35.6894, 'lon': 139.692},
+    'NY': {'lat': 40.6643, 'lon': -73.9385},
+    'Madagascar': {'lat': -18.9141, 'lon': 47.5306},
+}
+
+for index in dl.keys():
+    chamar_api(
+        lat=dl[index]['lat'],
+        log=dl[index]['lon'],
+        nome_arquivo=index)
+
+
+# for i in objetos:
+#     print(f"{i} :: {objetos[i]}")

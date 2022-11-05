@@ -1,6 +1,7 @@
 # Importações
 import json
 import requests
+from loguru import logger
 from deep_translator import GoogleTranslator
 
 
@@ -21,10 +22,21 @@ def tradutor_eng_ptbr():
     return texto, texto_trad
 
 
+def salvar_traducao(texto, texto_traduzido):
+    try:
+        with open('frases_traduzidas.txt', 'a', encoding='utf-8') as f:
+            t = texto_traduzido + "; " + texto + "\n"
+            f.write(t)
+    except Exception as error:
+        logger.exception(error)
+
 # Estrutura com 30 repetições
-for i in range(30):
+for i in range(100):
     # Recebe os retornos da função
     x, y = tradutor_eng_ptbr()
-    # Imprime os retornos
-    print(x)
-    print(y)
+    # Salvar no arquivo
+    salvar_traducao(x, y)
+
+    # # Imprime os retornos
+    # print(x)
+    # print(y)

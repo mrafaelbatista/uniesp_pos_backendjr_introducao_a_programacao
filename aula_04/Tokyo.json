@@ -1,1 +1,13 @@
-{"coord": {"lon": 139.6917, "lat": 35.6895}, "weather": [{"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02n"}], "base": "stations", "main": {"temp": 285.11, "feels_like": 284.01, "temp_min": 282.38, "temp_max": 286.23, "pressure": 1019, "humidity": 63}, "visibility": 10000, "wind": {"speed": 5.14, "deg": 340}, "clouds": {"all": 20}, "dt": 1667667532, "sys": {"type": 2, "id": 268395, "country": "JP", "sunrise": 1667682453, "sunset": 1667720527}, "timezone": 32400, "id": 1850144, "name": "Tokyo", "cod": 200}
+{"coord": {"lon": 139.6917, "lat": 35.6895},
+  "weather": [{"id": 801,
+    "main": "Clouds",
+    "description": "few clouds", "icon": "02n"}],
+  "base": "stations", "main": {
+  "temp": 285.11,
+  "feels_like": 284.01,
+  "temp_min": 282.38,
+  "temp_max": 286.23,
+  "pressure": 1019,
+  "humidity": 63},
+  "visibility": 10000,
+  "wind": {"speed": 5.14, "deg": 340}, "clouds": {"all": 20}, "dt": 1667667532, "sys": {"type": 2, "id": 268395, "country": "JP", "sunrise": 1667682453, "sunset": 1667720527}, "timezone": 32400, "id": 1850144, "name": "Tokyo", "cod": 200}

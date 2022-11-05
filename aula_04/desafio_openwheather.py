@@ -27,6 +27,8 @@ for index in dl.keys():
         log=dl[index]['lon'],
         nome_arquivo=index)
 
+    print(f"{index}| {dl[index]['lat']} | {dl[index]['lon']}")
+
 
 # for i in objetos:
 #     print(f"{i} :: {objetos[i]}")

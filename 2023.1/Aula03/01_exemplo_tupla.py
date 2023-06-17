@@ -13,3 +13,5 @@ print(enpoints)
 # Percorrendo uma tupla
 for i in dimensoes:
     print(f'Neste ciclo o valor de i é {i}.')
+
+dimensoes[0] = 1234567

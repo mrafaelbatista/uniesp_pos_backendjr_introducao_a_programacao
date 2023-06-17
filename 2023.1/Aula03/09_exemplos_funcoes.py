@@ -11,11 +11,13 @@ while True:
     match op:
         case 1:
             resultado = minhas_funcoes.somar(
-                randint(1, 5), randint(1, 5))
+                randint(1, 5),
+                randint(1, 5))
             print(f'A soma foi: {resultado}')
         case 2:
             resultado = minhas_funcoes.subtrair(
-                randint(100, 200), randint(100, 200))
+                randint(100, 200),
+                randint(100, 200))
             print(f'A subtração foi: {resultado}')
         case 3:
             break

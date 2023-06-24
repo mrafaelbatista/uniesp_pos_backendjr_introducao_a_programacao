@@ -1,8 +1,6 @@
-# condição para cada função
-# 1 - Adicionar pessoas
-# 2 - Pesquisar uma pessoa
+import projeto_funcoes
 
-lista = ['Messias', 'Neymar', 'Messi', 'Cristiano']
+lista_nomes = ['Messias', 'Neymar', 'Messi', 'Cristiano']
 
 while True:
 
@@ -15,33 +13,22 @@ while True:
 
     opcao = int(input('Digite a opção desejada: '))
 
-    if opcao == 1:
-        nome_pessoa = input('Digite o nome da pessoa: ')
-        lista.append(nome_pessoa)
+    match opcao:
+        case 1:
+            lista_nomes = projeto_funcoes.adicionar(lista=lista_nomes)
 
-    elif opcao == 2:
-        nome_pesquisa = input('Digite o nome a pesquisa: ')
-        if nome_pesquisa in lista:
-            print(f'O nome {nome_pesquisa} está na lista.')
+        case 2:
+            projeto_funcoes.pesquisar(lista=lista_nomes)
 
-    elif opcao == 3:
-        for nome in lista:
-            print(f'-> {nome}')
+        case 3:
+            projeto_funcoes.listar(lista=lista_nomes)
 
-    elif opcao == 4:
-        nome_remover = input('Digite quem será removido: ')
-        if nome_remover in lista:
-            lista.remove(nome_remover)
-        else:
-            print('Nome não encontrados!')
+        case 4:
+            lista_nomes = projeto_funcoes.remover(lista=lista_nomes)
 
-    elif opcao == 5:
-        nome_alterar = input('Digite o nome a ser alterado: ')
+        case 5:
+            lista_nomes = projeto_funcoes.alterar(lista=lista_nomes)
 
-        if nome_alterar in lista:
-            print(f'O nome {nome_alterar} foi encontrado.')
-            alteracao = input('Qual será o novo nome? ')
-            lista[lista.index(nome_alterar)] = alteracao
-
-        else:
-            print('O nome não foi encontrado!')
+        case 0:
+            print(f'Programa finalizando...')
+            break

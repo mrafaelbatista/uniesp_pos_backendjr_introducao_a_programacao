@@ -1,6 +1,6 @@
 import projeto_funcoes
 
-lista_nomes = ['Messias', 'Neymar', 'Messi', 'Cristiano']
+lista_nomes = projeto_funcoes.ler_arquivo()
 
 while True:
 

@@ -42,11 +42,20 @@ def alterar(lista):
 
 def salvar_arquivo(lista):
     with open('banco_de_talentos.txt', 'w', encoding='utf-8') as fo:
-        fo.writable(lista)
+        # fo.writelines(i + '\n' for i in lista)
+        for i in lista:
+            fo.write(f'{i}\n')
+
 
 def ler_arquivo():
     with open('banco_de_talentos.txt', 'r', encoding='utf-8') as fo:
-        lista = fo.readlines()
+        lista_bd = fo.readlines()
+
+        lista = []
+
+        for i in lista_bd:
+            lista.append(i.rstrip())
+
         return lista
 
 

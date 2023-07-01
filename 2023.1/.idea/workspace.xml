@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d01c46c-1ff9-4595-ae3d-c3b811530a5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Aula03/teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/Teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/arquivo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/atividade01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/contos_dos_irmaos_grimm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/exemplo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/exemplo02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/exemplo03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/exemplo04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/o_principe_maquiavel.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/projeto/projeto_aula04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/projeto/projeto_funcoes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula04/teste/arquivo2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2023.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2023.1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula04/teste2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao01/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Aula01_Revisao/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao01/.idea/Revisao01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula01_Revisao/.idea/Revisao01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao01/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula01_Revisao/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula01_Revisao/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao01/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula01_Revisao/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula01_Revisao/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao01/exercicio01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula01_Revisao/exercicio01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao01/exercicio02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula01_Revisao/exercicio02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula04/projeto/projeto_aula04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula04/projeto/projeto_aula04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula04/projeto/projeto_funcoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula04/projeto/projeto_funcoes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +42,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,7 +58,7 @@
       <recent name="C:\Users\mrafa\devSourceCode\uniesp_especializacao_logica_programacao\2023.1\Aula04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Teste">
+  <component name="RunManager" selected="Python.teste2">
     <configuration name="Teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2023.1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,50 +103,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exemplo02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2023.1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula04/exemplo02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="exemplo03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2023.1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula04/exemplo03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="exemplo04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2023.1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,13 +125,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="projeto_aula04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2023.1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula04/projeto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula04/projeto/projeto_aula04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2023.1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula04/teste2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.teste2" />
+        <item itemvalue="Python.projeto_aula04" />
         <item itemvalue="Python.Teste" />
         <item itemvalue="Python.atividade01" />
         <item itemvalue="Python.exemplo04" />
-        <item itemvalue="Python.exemplo03" />
-        <item itemvalue="Python.exemplo02" />
       </list>
     </recent_temporary>
   </component>
@@ -208,17 +188,30 @@
       <option name="presentableId" value="Default" />
       <updated>1685796349795</updated>
       <workItem from="1688172272144" duration="806000" />
-      <workItem from="1688209990546" duration="12991000" />
+      <workItem from="1688209990546" duration="16747000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2023_1$exemplo02.coverage" NAME="exemplo02 Coverage Results" MODIFIED="1688215492660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula04" />
+    <SUITE FILE_PATH="coverage/2023_1$teste2.coverage" NAME="teste2 Coverage Results" MODIFIED="1688236134507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula04" />
     <SUITE FILE_PATH="coverage/2023_1$exemplo01.coverage" NAME="exemplo01 Coverage Results" MODIFIED="1688212555359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula04" />
     <SUITE FILE_PATH="coverage/2023_1$atividade01.coverage" NAME="atividade01 Coverage Results" MODIFIED="1688222776209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula04" />
+    <SUITE FILE_PATH="coverage/2023_1$projeto_aula04.coverage" NAME="projeto_aula04 Coverage Results" MODIFIED="1688234282399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula04/projeto" />
     <SUITE FILE_PATH="coverage/2023_1$exemplo03.coverage" NAME="exemplo03 Coverage Results" MODIFIED="1688219319319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula04" />
     <SUITE FILE_PATH="coverage/2023_1$Exemplo.coverage" NAME="Exemplo Coverage Results" MODIFIED="1688172905054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula04" />
     <SUITE FILE_PATH="coverage/2023_1$exemplo04.coverage" NAME="exemplo04 Coverage Results" MODIFIED="1688219979767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula04" />

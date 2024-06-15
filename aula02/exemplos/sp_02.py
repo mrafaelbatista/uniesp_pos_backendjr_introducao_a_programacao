@@ -1,3 +1,5 @@
+import math
+
 raio = float(input("Digite o raio do cilindro: "))
 altura = float(input("Digite a altura do cilindro: "))
 
@@ -10,9 +12,9 @@ area_cilindro = area_lateral + area_base
 
 # Cálculo da pintura
 quantidade_litros = area_cilindro / 3
-# A função round() arredonda o valor para o inteiro
-# mais próximo
-quantidade_latas = round(quantidade_litros / 5)
+
+# A função ceil arredonda para cima
+quantidade_latas = math.ceil(quantidade_litros / 5)
 
 # Custo total
 custo_total = quantidade_latas * 50

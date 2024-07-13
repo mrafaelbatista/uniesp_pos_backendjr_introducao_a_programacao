@@ -30,7 +30,7 @@ for chave in caderneta:
     for nota_registrada in notas:
         soma = soma + nota_registrada
 
-    media = soma / len(caderneta[chave])
+    media = soma / len(notas)
 
 
 

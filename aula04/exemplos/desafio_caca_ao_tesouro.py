@@ -7,7 +7,8 @@ for i in range(5):
 
     for j in range(5):
         valor = randint(1, 200)
-        print(f'Valor que vai para a matriz {valor} - Posição {[i, j]}')
+        print(f'Valor que vai para a matriz {valor}'
+              f'Posição {[i, j]}')
         lista_temporaria.append(valor)
 
     mapa_do_tesouro.append(lista_temporaria)

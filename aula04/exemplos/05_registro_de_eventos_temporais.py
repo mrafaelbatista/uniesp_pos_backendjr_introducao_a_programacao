@@ -24,8 +24,12 @@ while eventos < 10:
     agora = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     mensagem = evento(randint(1, 5))
 
-    print(f'{agora} - {mensagem.upper()}')
+    mensagem_formatada = f'{agora} - {mensagem.upper()}'
 
+    with open('eventos.txt', 'a', encoding='utf-8') as arquivo:
+        arquivo.write(mensagem_formatada + '\n')
+
+    print(mensagem_formatada)
 
     # Adiciona mais 1 no valor de eventos
     eventos += 1

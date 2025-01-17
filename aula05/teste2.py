@@ -1,15 +1,15 @@
-import curses
+import json
 
-def exibir_menu(stdscr):
-    stdscr.clear()
-    stdscr.addstr(0, 0, "===== MENU =====")
-    stdscr.addstr(2, 0, "1. Opção 1")
-    stdscr.addstr(3, 0, "2. Opção 2")
-    stdscr.addstr(4, 0, "3. Opção 3")
-    stdscr.addstr(5, 0, "0. Sair")
+dados = {
+    "nome": "Messias",
+    "idade": 38,
+    "cidade": "João Pessoa"
+}
 
-def main():
-    curses.wrapper(exibir_menu)
+with open('meu_dict.json', 'w', encoding='utf-8') as arquivo:
+    json.dump(dados, arquivo, ensure_ascii=False)
 
-if __name__ == "__main__":
-    main()
+with open('meu_dict.json', 'r', encoding='utf-8') as arquivo:
+    dados = json.load(arquivo)
+
+print(dados)
